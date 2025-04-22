@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ruby | Portfólio Fotográfico</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="bg-neutral-100 text-gray-800 font-sans">
+    <header class="text-center py-10 bg-white shadow-md">
+      <h1 class="text-4xl font-bold tracking-wide">Ruby</h1>
+      <p class="text-lg text-gray-600">Fotógrafa de luz, alma e momentos</p>
+    </header>
+
+    <section class="max-w-5xl mx-auto py-12 px-4">
+      <h2 class="text-2xl font-semibold mb-6 text-center">Portfólio</h2>
+      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+        <!-- Substitua os links abaixo pelas suas fotos -->
+        <img src="https://source.unsplash.com/random/400x500?portrait" class="rounded-xl shadow" />
+        <img src="https://source.unsplash.com/random/401x500?people" class="rounded-xl shadow" />
+        <img src="https://source.unsplash.com/random/402x500?fashion" class="rounded-xl shadow" />
+        <img src="https://source.unsplash.com/random/403x500?woman" class="rounded-xl shadow" />
+        <img src="https://source.unsplash.com/random/404x500?light" class="rounded-xl shadow" />
+        <img src="https://source.unsplash.com/random/405x500?photo" class="rounded-xl shadow" />
+      </div>
+    </section>
+
+    <section class="bg-white py-10">
+      <div class="max-w-xl mx-auto text-center px-4">
+        <h2 class="text-xl font-semibold mb-4">Entre em contato</h2>
+        <p class="mb-4 text-gray-600">
+          Quer agendar um ensaio ou trocar uma ideia? Me chama no Instagram ou mande um e-mail!
+        </p>
+        <p class="font-medium">
+          📩 <a href="mailto:rubyfoto@email.com" class="text-blue-500">rubyfoto@email.com</a><br />
+          📸 <a href="https://instagram.com/seu_usuario" target="_blank" class="text-pink-500">@seu_usuario</a>
+        </p>
+      </div>
+    </section>
+
+    <footer class="text-center text-sm text-gray-500 py-6">
+      © 2025 Ruby Fotografia. Todos os direitos reservados.
+    </footer>
+  </body>
+</html>
